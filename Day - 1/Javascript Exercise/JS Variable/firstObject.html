@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript objects</h2>
+    <p id="demo"></p>
+    <script>
+        // car as an object with (key,value pairs)
+        var car = {
+            type : "i10",
+            model: "sportz",
+            color: "white"
+        }
+        //display data from the object
+        document.getElementById('demo').innerHTML = "The car type is " + car['type'];
+        // OR
+        // document.getElementById('demo').innerHTML = "The car type is " + car.type;
+    </script>
+</body>
+</html>
+
